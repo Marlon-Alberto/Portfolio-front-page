@@ -23,6 +23,11 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 10000;
+}
+
+#perfil{
+    border: 1px solid red;
 }
 
 header .logo{
@@ -32,6 +37,8 @@ header .logo{
     font-size: 2em;
     text-transform: uppercase;
     letter-spacing: 2px;
+    border: 1px solid red;
+    
 }
 
 header ul{
@@ -95,7 +102,7 @@ section img#moon{
     mix-blend-mode: screen;
 }
 
-section img#mountains-front{
+section img#mountains_front{
     z-index: 10;
 }
 
@@ -136,4 +143,16 @@ section img#mountains-front{
 .sec p{
     font-size: 1.2em;
     color: #fff;
+}
+
+#linguagens{
+    background: #1c0522;
+    
+}
+
+#linguagens h2{
+    color: #fff;
+    font-size: 3.5em;
+    text-align: center;
+    margin-bottom: 10px;
 }
