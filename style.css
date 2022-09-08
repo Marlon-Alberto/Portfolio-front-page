@@ -167,6 +167,7 @@ section img#mountains_front{
 
 #projetos{
     background: #1c0522;
+    
 }
 
 #projetos h2{
@@ -183,9 +184,38 @@ section img#mountains_front{
     text-align: center;
 }
 
-#img-projeto{
-    width: 835px;
+#projeto-1{
+    width: 250px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
+    border: 1px solid red;    
 }
+
+#projeto-1 p{
+    padding-top: 20px;
+}
+
+#projeto-2{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border: 1px solid red;    
+}
+
+#projeto-2 p{
+    padding-top: 20px;
+}    
+
+#projeto-3{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border: 1px solid red;    
+}
+
+#projeto-3 p{
+    padding-top: 20px;
+}    
