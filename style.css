@@ -185,6 +185,34 @@ section img#mountains_front{
 }
 
 #projeto-1{
+    width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#projeto-1 img{
+    padding: 20px 50px;
+}
+
+#projeto-N{
+    width: 365px;
+    margin-left: 390px;
+    float: left;
+}
+
+#projeto-breve{
+    width: 365px;
+    float: left;
+    margin-left: -35px;
+}
+
+#projeto-breve2{
+    width: 365px;
+    float: left;
+}
+
+/*
+#projeto-1{
     width: 250px;
     margin-left: auto;
     margin-right: auto;
@@ -201,7 +229,7 @@ section img#mountains_front{
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
-    border: 1px solid red;    
+        
 }
 
 #projeto-2 p{
@@ -213,9 +241,11 @@ section img#mountains_front{
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
-    border: 1px solid red;    
+       
 }
 
 #projeto-3 p{
     padding-top: 20px;
 }    
+
+*/
