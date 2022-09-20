@@ -19,7 +19,8 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 30px 100px;
+    min-width: 660px;
+    padding: 30px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,7 +35,7 @@ header .logo{
     font-size: 2em;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin-right: 750px;
+    
 }
 
 header ul{
@@ -45,7 +46,7 @@ header ul{
 
 header ul li{
     list-style: none;
-    margin-left: 20px;
+    margin-left: 10px;
 
 }
 
@@ -155,9 +156,10 @@ section img#mountains_front{
 }
 
 #img-linguagens{
-    width: 835px;
-    margin-left: auto;
+    width: 100%;
+    max-width: 835px;
     margin-right: auto;
+    margin-left: auto;
     padding: 20px;
 }
 
@@ -209,4 +211,29 @@ section img#mountains_front{
 #projeto-breve2{
     width: 365px;
     float: left;
+}
+
+footer{
+    background-color: #1c0522;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#contato{
+    float: left;
+    width: 100%;
+    max-width: 416px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid red;
+}
+
+#redes{
+    float: right;
+    width: 100%;
+    max-width: 416px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid red;
 }
