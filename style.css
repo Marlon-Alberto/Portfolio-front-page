@@ -216,37 +216,7 @@ section img#mountains_front{
 #projetos a:hover{
     opacity: 50%;
 }
-/*
-#projeto-1 img{
-    padding: 20px 30px;
-}
 
-#imagem-projeto-1{
-    width: 365px;
-}
-
-#projeto-1 a:hover{
-    opacity: 50%;
-}
-
-#projeto-N{
-    width: 365px;
-    margin-left: auto;
-    float: left;
-}
-
-#projeto-breve{
-    width: 115px;
-    float: left;
-    margin-left: 100px;
-}
-
-#projeto-breve2{
-    width: 115px;
-    margin-right: 80px;
-    float: right;
-}
-*/
 footer{
     background-color: #0f0711;
     color: #fff;
