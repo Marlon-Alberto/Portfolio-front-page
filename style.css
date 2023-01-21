@@ -173,7 +173,7 @@ section img#mountains_front{
     background-color: #1c0522;
 }
 
-#projetos{
+#meus-projetos{
     background: #1c0522;
     padding-bottom: 25px;
     max-width: 1020px;
@@ -182,7 +182,7 @@ section img#mountains_front{
     margin-right: auto;
 }
 
-#projetos h2{
+#meus-projetos h2{
     color: #fff;
     font-size: 3.5em;
     text-align: center;
@@ -190,21 +190,43 @@ section img#mountains_front{
     padding-top: 50px;
 }
 
-#projetos p{
+#meus-projetos p{
     font-size: 1.2em;
     color: #fff;
     text-align: center;
 }
 
-#projeto-1{
+#projetos{
     width: 100%;
     max-width: 940px;
     margin-right: auto;
     margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
+#projetos img{
+    width: 320px;
+    padding: 15px;
+    border-radius: 20%;
+    height: 263px;
+}
+
+#projetos a:hover{
+    opacity: 50%;
+}
+/*
 #projeto-1 img{
     padding: 20px 30px;
+}
+
+#imagem-projeto-1{
+    width: 365px;
+}
+
+#projeto-1 a:hover{
+    opacity: 50%;
 }
 
 #projeto-N{
@@ -224,7 +246,7 @@ section img#mountains_front{
     margin-right: 80px;
     float: right;
 }
-
+*/
 footer{
     background-color: #0f0711;
     color: #fff;
@@ -275,8 +297,11 @@ footer{
     .img_responsivo {
         width: 280px;
     }
-    #projeto-1 {
+    #projetos{
         text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     #img-linguagens {
         text-align: center;
@@ -301,8 +326,11 @@ footer{
         
         margin: auto;
     }
-    #projeto-1 {
+    #projetos {
         text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .sec {
         width: 100%;
@@ -319,8 +347,11 @@ footer{
     .hard_skill {
         width: 100%;
     }
-    #projeto-1 {
+    #projetos {
         width: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     #linguagens > h2 {
         font-size: 2.5em;
